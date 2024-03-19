@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <Style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+            margin: 0px;
+        }
+        h1{
+            color: blue;
+            text-align: center;
+    
+        }
+
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            padding: 5px;
+            text-indent: 10px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin:10px
+        }
+        nav{
+            background-color: rgb(144, 188, 232);
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
+        }
+        nav > a{
+            text-decoration: none;
+            color:white;
+            font-weight: bold;
+            margin:30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin:10px;
+            border-radius: 15px;
+        }
+        section > p {
+            padding: 5px;
+            border-radius: 15px;
+        }
+        article > h2{
+            padding:10px;
+            color: azure;
+            background-color: red;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
+        }
+        article > h3{
+            padding:10px;
+            color: azure;
+            background-color: rgb(9, 66, 235);
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
+        }
+        article{
+            background-color: lightgrey;
+            border-radius: 5px;
+        }
+        article > aside{
+            background-color: rgb(112, 108, 108);
+        }
+        footer{
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding: 4px;
+            margin: opx;
+        }
+        footer > p{
+            margin:0px;
+        }
+    </Style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href= "#"> link</a>
+            <a href= "#"> link</a>
+            <a href= "#"> link</a>
+            <a href= "#"> link</a>
+            <a href= "#"> link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <article><h2>Esporte, politica e Tecnologia</h2>
+            <h3>Fique Informado</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis neque praesentium. Reprehenderit cumque unde officiis, quasi ab placeat quae facere rem beatae. Illum accusantium fugiat itaque. Saepe, sint hic!</p>
+            </article>
+        </section>
+        <section id="Noticias"></section>
+            <article>
+                <h2>Como fazer seu site</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis quisquam delectus, nam, culpa illo rem quidem eos id perspiciatis blanditiis ipsa nostrum magnam similique odit. Dolor veritatis dignissimos molestias vel?</p>
+                <aside>
+                    <p>Artigo escrito por Jorge Marques</p>
+                </aside>
+            </article>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Jorge</p>
+
+    </footer>
+</body>
+</html>
